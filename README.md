@@ -98,7 +98,7 @@ Client 1 (127.0.0.1:12345) has been kicked.
 
 ## Authors
 
-- ...
+- Maximilian Edison
 - Max Base
 
 Copyright 2023, Max Base
