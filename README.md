@@ -1,6 +1,6 @@
 # TCP/IP Chat Server
 
-This is a TCP/IP chat server implemented in C. The server allows multiple clients to connect and communicate with each other through a chat room.
+This is a TCP/IP chat server implemented in C++. The server allows multiple clients to connect and communicate with each other through a chat room.
 
 ## Features
 
