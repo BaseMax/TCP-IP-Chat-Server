@@ -1,16 +1,18 @@
-#include <iostream>
+#include <vector>
 #include <cstdlib>
 #include <cstring>
-#include <vector>
-#include <algorithm>
 #include <fstream>
 #include <sstream>
+#include <iostream>
 #include <unistd.h>
+#include <algorithm>
+
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <sys/select.h>
+
 #include "server.h"
 
 Server::Server(int port) : port(port), running(false), maxClients(0), logFile("chat_log.txt") {
@@ -120,6 +122,7 @@ void Server::run() {
         }
     }
 }
+
 void Server::disconnectClient(int clientSocket) {
     auto it = std::find_if(clients.begin(), clients.end(), [clientSocket](const Client& client) {
         return client.getSocket() == clientSocket;
