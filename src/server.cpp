@@ -13,7 +13,7 @@
 #include <sys/select.h>
 #include "server.h"
 
-Server::Server(int port) : port(port), running(false), maxClients(0), nextClientId(1), logFile("chat_log.txt") {
+Server::Server(int port) : port(port), running(false), maxClients(0), logFile("chat_log.txt") {
     FD_ZERO(&masterSet);
 }
 

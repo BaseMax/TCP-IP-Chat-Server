@@ -27,7 +27,6 @@ private:
     int port;
     bool running;
     int maxClients;
-    int nextClientId;
     int serverSocket;
     std::vector<Client> clients;
     fd_set masterSet;
