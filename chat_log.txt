@@ -1,4 +1,0 @@
-Client connected: 5 (127.0.0.1:41520)
-Client connected: 6 (127.0.0.1:53886)
-Message from client 6 (127.0.0.1:53886): Hi
-
