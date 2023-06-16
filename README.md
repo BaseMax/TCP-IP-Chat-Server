@@ -14,8 +14,7 @@ This is a TCP/IP chat server implemented in C++. The server allows multiple clie
 
 ## Requirements
 
-- C compiler (GCC or Clang recommended)
-- Make utility (to build the program)
+- g++ compiler (GCC or Clang recommended)
 
 ## Usage
 
@@ -58,15 +57,15 @@ To use a command, simply type it in the chat room and press Enter.
 
 Here is an example of how to use the server:
 
-Start the server on port 8080:
+Start the server on port 9000:
 ```bash
-./chat_server 8080
+./chat_server 9000
 ```
 
 Connect to the server using a Telnet client:
 
 ```bash
-telnet localhost 8080
+telnet localhost 9000
 ```
 
 Send a message to the chat room:
@@ -84,19 +83,22 @@ Output:
 
 ```
 Connected clients:
-1. 127.0.0.1:12345
+5. 127.0.0.1:46242
+6. 127.0.0.1:46254
+7. 127.0.0.1:46268
+8. 127.0.0.1:46280
 ```
 
 Use the /kick command to disconnect a client:
 
 ```bash
-/kick 1
+/kick 5
 ```
 
 Output:
 
 ```bash
-Client 1 (127.0.0.1:12345) has been kicked.
+Client 5 has been kicked.
 ```
 
 ## Authors
