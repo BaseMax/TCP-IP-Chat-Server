@@ -2,6 +2,8 @@
 
 This is a TCP/IP chat server implemented in C++. The server allows multiple clients to connect and communicate with each other through a chat room.
 
+![TCP/IP Chat Server](https://github.com/BaseMax/TCP-IP-Chat-Server/assets/2658040/52ac2a1c-4849-4a0e-9b0e-e7e18866d630)
+
 ## Features
 
 - Multiple clients can connect to the server and communicate in a chat room
