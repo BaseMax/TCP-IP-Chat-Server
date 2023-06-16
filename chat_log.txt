@@ -1,0 +1,16 @@
+Client connected: 5 (127.0.0.1:51212)
+Client connected: 6 (127.0.0.1:58552)
+Client disconnected: 5 (127.0.0.1:51212)
+Message from client 6 (127.0.0.1:58552): 
+
+Message from client 6 (127.0.0.1:58552): ls 
+
+Client connected: 5 (127.0.0.1:41800)
+Message from client 5 (127.0.0.1:41800): Hi
+
+Message from client 5 (127.0.0.1:41800): How are you
+
+Message from client 6 (127.0.0.1:58552): Thanks
+
+Message from client 6 (127.0.0.1:58552): /list
+
