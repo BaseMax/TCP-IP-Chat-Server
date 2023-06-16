@@ -3,6 +3,8 @@
 This is a TCP/IP chat server implemented in C++. The server allows multiple clients to connect and communicate with each other through a chat room.
 
 ![TCP/IP Chat Server](https://github.com/BaseMax/TCP-IP-Chat-Server/assets/2658040/52ac2a1c-4849-4a0e-9b0e-e7e18866d630)
+![TCP/IP Chat Server](https://github.com/BaseMax/TCP-IP-Chat-Server/assets/2658040/52ac2a1c-4849-4a0e-9b0e-e7e18866d630)
+![TCP/IP Chat Server](https://github.com/BaseMax/TCP-IP-Chat-Server/assets/2658040/52ac2a1c-4849-4a0e-9b0e-e7e18866d630)
 
 ## Features
 
@@ -21,7 +23,7 @@ This is a TCP/IP chat server implemented in C++. The server allows multiple clie
 To build the program, run the following command:
 
 ```bash
-make
+g++ -O2 -g -Wall -Werror -o chat_server ./src/client.cpp ./src/client_server.cpp ./src/server.cpp
 ```
 
 To run the program, use the following command:

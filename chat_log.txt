@@ -1,16 +1,31 @@
-Client connected: 5 (127.0.0.1:51212)
-Client connected: 6 (127.0.0.1:58552)
-Client disconnected: 5 (127.0.0.1:51212)
-Message from client 6 (127.0.0.1:58552): 
+Client connected: 5 (127.0.0.1:46242)
+Client connected: 6 (127.0.0.1:46254)
+Client connected: 7 (127.0.0.1:46268)
+Client connected: 8 (127.0.0.1:46280)
+Message from client 5 (127.0.0.1:46242): Hi
 
-Message from client 6 (127.0.0.1:58552): ls 
+Message from client 8 (127.0.0.1:46280): Hi everyone!!!
 
-Client connected: 5 (127.0.0.1:41800)
-Message from client 5 (127.0.0.1:41800): Hi
+Message from client 8 (127.0.0.1:46280): I want see you guys...
 
-Message from client 5 (127.0.0.1:41800): How are you
+Message from client 6 (127.0.0.1:46254): I love all you ;)
 
-Message from client 6 (127.0.0.1:58552): Thanks
+Message from client 6 (127.0.0.1:46254): thanks
 
-Message from client 6 (127.0.0.1:58552): /list
+Message from client 6 (127.0.0.1:46254): so good
+
+Message from client 6 (127.0.0.1:46254): what is your name? 
+
+Message from client 7 (127.0.0.1:46268): I am mahmoud
+
+Message from client 7 (127.0.0.1:46268): nice
+
+Client disconnected: 8 (127.0.0.1:46280)
+Client disconnected: 5 (127.0.0.1:46242)
+Message from client 6 (127.0.0.1:46254): 
+
+Client disconnected: 7 (127.0.0.1:46268)
+Message from client 6 (127.0.0.1:46254): 
+
+Message from client 6 (127.0.0.1:46254): I must be alone :(
 

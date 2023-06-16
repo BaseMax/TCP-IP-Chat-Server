@@ -138,12 +138,12 @@ void Server::disconnectClient(int clientSocket) {
 }
 
 void Server::handleMessage(int senderSocket, const std::string& message) {
-    if (message == "/list") {
+    if (message.substr(0, 5) == "/list") {
         listClients(senderSocket);
     } else if (message.substr(0, 5) == "/kick") {
         int clientId = std::stoi(message.substr(6));
         kickClient(senderSocket, clientId);
-    } else {
+    } else if (!message.empty() && message != "\n") {
         // Broadcast the message to all connected clients
         for (const Client& client : clients) {
             if (client.getSocket() != senderSocket) {
